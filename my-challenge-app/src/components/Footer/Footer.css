@@ -1,0 +1,30 @@
+footer {
+	background-color: #dddee9;
+	height: 60px;
+	display: flex;
+	justify-content: left;
+	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+}
+
+button {
+padding: 5px 10px;
+margin: 10px 40px;
+background-color: #0174DF;
+color: #FFF;
+border: none;
+outline: none;
+border-radius: 0.5rem;
+opacity: 1;
+}
+
+button:hover{
+background-color: #013ADF;
+}
+
+button:active{
+	border: 2px solid #2E9AFE;
+
+}

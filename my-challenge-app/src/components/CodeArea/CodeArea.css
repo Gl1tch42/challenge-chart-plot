@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&family=Source+Sans+Pro&display=swap');
+
+.ace-monokai .ace_string{
+	color: #0bd5e6 !important;
+}
+
+.ace-monokai .ace_constant.ace_character, 
+.ace-monokai .ace_constant.ace_language, 
+.ace-monokai .ace_constant.ace_numeric, 
+.ace-monokai .ace_constant.ace_other {
+    color: #795e9b !important;
+}
+
+.ace-monokai{
+	background-color: #2e3440 ;
+	color: #e0e0e0 ;
+}
+
+.ace-monokai .ace_marker-layer .ace_active-line,
+.ace-monokai .ace_gutter-active-line {
+    background: none ;
+}
+.ace_gutter-cell{
+	color: #393f48 ;
+}
+
+.ace-monokai .ace_gutter {
+    background: #60656e ;
+}
+
+.ace-editor{
+	font-family: 'Source Code Pro' !important;
+}
+
+.editor-wrapper{
+	height: 235px;
+	position: relative;
+
+}
+
+.editor-wrapper .resize-btn{
+	display: block;
+	width: 27px;
+	height: 12px;
+	background-color: #050506;
+	position: absolute;
+	left: calc(50% - 25px * 0.5);
+	bottom: -5px;
+	border-radius: 3px;
+	cursor: row-resize;
+	z-index: 9;
+}
+
+.editor-wrapper .resize-btn:hover{
+	background-color: white;
+	color: black;
+}
+
+.editor-wrapper .resize-btn:active{
+	background-color: white;
+	color: black;
+}
+
+.editor-wrapper .resize-btn:before,
+.editor-wrapper .resize-btn:after{
+	content: '';
+	display: block;
+	width: 70%;
+	height: 2px;
+	background-color: #747982;
+	position: relative;
+	left: calc(50% - 70% * 0.5);
+}
+
+.editor-wrapper .resize-btn:before{
+	top: 3px;
+}
+
+.editor-wrapper .resize-btn:after{
+	top: 5px;
+}
+
+/* width */
+.ace_scrollbar-v::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+.ace_scrollbar-v::-webkit-scrollbar-track {
+    background: #2e3440;
+}
+
+/* Handle */
+.ace_scrollbar-v::-webkit-scrollbar-thumb {
+    background: #60656e; 
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+.ace_scrollbar-v::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

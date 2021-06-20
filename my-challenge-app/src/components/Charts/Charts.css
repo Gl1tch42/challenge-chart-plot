@@ -1,0 +1,51 @@
+
+.chart-wrapper{
+	padding: 20px 30px;
+	display: flex;
+	justify-content: space-between;
+	flex: 1 1;
+}
+
+.chart-wrapper:last-child{
+	margin-bottom: 60px;
+}
+
+.chart-wrapper:first-child{
+	margin-bottom: 0px;
+}
+
+.line-chart-wrapper{
+	width: 74%;
+}
+
+.legend-wrapper{
+	width: 24%;
+}
+
+.legend-wrapper ul{
+	list-style-type: none;
+}
+
+
+.legend-wrapper ul li{
+	font-size: 13px;
+	font-weight: 500;
+	margin-bottom: 8px;
+	position: relative;
+	padding-left: 30px;
+}
+
+
+.legend-wrapper ul li span{
+	background-color: inherit;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	left: 0px;
+	top: calc(50% - 7.5px);
+}
+
+.legend-wrapper ul li:last-child{
+	margin-bottom: 0px;
+}
