@@ -1,17 +1,3 @@
-/**
- * @desc This class represents an EventStream,
- * an event stream is a series of related events.
- * An event stream has three main fields:
- *   1. Select
- *		Variables that could be plotted in the chart.
- *		It's usaly a numeric value.
- *	2. Group
- *		A way of spliting the same variable in
- *		diferent series
- *	3. Span
- *		Determine which events should be ignored 
-*/
-
 import Datasets from './Datasets';
 
 export default class EventStream{
