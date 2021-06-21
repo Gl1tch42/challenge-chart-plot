@@ -1,9 +1,5 @@
 import EventStringParser from './index';
 
-/**
- * @desc Crash cause fields timestamp and type
- * are mandatory for all events.
-*/
 it('Crash cause theres no type or timestamp', () => {
 	try{
 		const str = `
@@ -18,9 +14,7 @@ it('Crash cause theres no type or timestamp', () => {
 	}
 });
 
-/**
- * @desc Crash cause it is a invalid json
-*/
+
 it('Crash cause its a invalid json between a and b', () => {
 	try{
 		const str = `
