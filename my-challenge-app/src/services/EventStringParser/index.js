@@ -84,8 +84,7 @@ export default class EventStringParser{
 
 		else if( (type === "data" || type === "span" || type === "stop") && noActiveEventStream )
 
-			throw new Error(`Cannot procces the data, span or a stop event ` +
-					 `without event stream.`);
+			throw new Error(`Cannot procces the data`);
 
 		return null;
 	}
